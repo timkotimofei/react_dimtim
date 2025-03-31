@@ -1,19 +1,19 @@
 
-import Project from "../components/project/Project";
+import Service from "../components/service/Service";
 
-import { projects } from "../helpers/projectsList";
+import { services } from "../helpers/servicesList";
 
 
 
-const Projects = () => {
+const Services = () => {
     return ( 
     <main className="section">
         <div className="container">
-            <h2 className="title-1">Projects</h2>
-            <ul className="projects">
+            <h2 className="title-1">Services</h2>
+            <ul className="services">
             
-            {projects.map((project, index) => {
-                return <Project key={index} title={project.title} img={project.img} index={index}/>
+            {services.map((service, index) => {
+                return <Service key={index} title={service.title} img={service.img} index={index}/>
 
             })}
 
@@ -24,4 +24,4 @@ const Projects = () => {
      );
 }
  
-export default Projects;
+export default Services;

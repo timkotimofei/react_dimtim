@@ -1,4 +1,4 @@
-import project01 from "./../img/projects/01.jpg";
+import service01 from "./../img/services/01.png";
 import project01Big from "./../img/projects/01-big.jpg";
 
 import project02 from "./../img/projects/02.jpg";
@@ -17,11 +17,11 @@ import project06 from "./../img/projects/06.jpg";
 import project06Big from "./../img/projects/06-big.jpg";
 
 
-const projects = [
+const services = [
     {
-        title: "Gaming streaming portal",
+        title: "Получилось",
         skills: "React, Node.js, Mongo DB" ,
-        img: project01,
+        img: service01,
         imgBig: project01Big,
         gitHubLink: "https://github.com",
     }, 
@@ -64,4 +64,4 @@ const projects = [
 ]
 
 
-export {projects}
+export {services}
