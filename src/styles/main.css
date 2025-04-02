@@ -171,6 +171,15 @@ body {
 	row-gap: 30px;
 }
 
+/* Services  */
+
+.services {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	row-gap: 30px;
+}
 
 
 /* Project details */

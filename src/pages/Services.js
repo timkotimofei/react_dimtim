@@ -10,7 +10,7 @@ const Services = () => {
     <main className="section">
         <div className="container">
             <h2 className="title-1">Services</h2>
-            <ul className="services">
+            <ul className="projects">
             
             {services.map((service, index) => {
                 return <Service key={index} title={service.title} img={service.img} index={index}/>
